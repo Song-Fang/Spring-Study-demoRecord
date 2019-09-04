@@ -12,5 +12,13 @@ public class HelloWorld {
 		System.out.println("Hello "+name);
 	}
 	
+	public HelloWorld() {
+		
+	}
+	
+	public HelloWorld(String str) {
+		System.out.println("Constructor has parameters.");
+	}
+	
 	
 }

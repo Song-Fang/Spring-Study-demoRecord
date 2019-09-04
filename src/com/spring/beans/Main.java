@@ -9,7 +9,7 @@ public class Main {
 //		h.setName("Song");
 //		h.hello();
 		ApplicationContext ac = new ClassPathXmlApplicationContext("applicationContext.xml");
-		HelloWorld hello = (HelloWorld)ac.getBean("helloWorld");
+		HelloWorld hello = (HelloWorld)ac.getBean(HelloWorld.class);
 		hello.hello();
 		
 	}
