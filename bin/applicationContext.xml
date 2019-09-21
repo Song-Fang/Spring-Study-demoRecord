@@ -5,5 +5,36 @@
 	<bean id="helloWorld" class="com.spring.beans.HelloWorld">
 		<property name="name" value="Spring"></property>
 	</bean>
+	
+	<bean id="person" class="com.spring.beans.Person">
+		<property name="name" value="Song"></property>
+		<property name="gender">
+			<value>male</value>
+		</property>
+		<property name="age" value="20"></property>
+	</bean>
+	
+	<bean id = "person2" class = "com.spring.beans.Person">
+		<constructor-arg value="Lynn"></constructor-arg>
+		<constructor-arg value="female"></constructor-arg>
+		<constructor-arg value="27"></constructor-arg>
+	</bean>
+	
+	<bean id="car" class= "com.spring.beans.Car">
+		<constructor-arg value="Audi"></constructor-arg>
+		<constructor-arg value="Germeny"></constructor-arg>
+		<constructor-arg value="20000"></constructor-arg>
+		<constructor-arg value="150"></constructor-arg>
+	
+	</bean>
+	
+	<bean id="car2" class= "com.spring.beans.Car">
+		<constructor-arg value="Audi" type="java.lang.String"></constructor-arg>
+		<constructor-arg type="java.lang.String">
+			<value>German</value>		
+		</constructor-arg>
+		<constructor-arg value="40000" type="int"></constructor-arg>
+	
+	</bean>
 
 </beans>
