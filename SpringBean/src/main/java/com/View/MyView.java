@@ -15,12 +15,12 @@ public class MyView {
         FileSystemXmlApplicationContext
         AnnotationConfigApplicationContext
          */
-       // ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //MyService myService = (MyService) ac.getBean("myService");
-        //MyService myService = ac.getBean("myService",MyService.class);
-        Resource resource = new ClassPathResource("bean.xml");
-        BeanFactory beanFactory = new XmlBeanFactory(resource);
-        MyService myService = beanFactory.getBean("myService",MyService.class);
+        MyService myService = ac.getBean("myService",MyService.class);
+//        Resource resource = new ClassPathResource("bean.xml");
+//        BeanFactory beanFactory = new XmlBeanFactory(resource);
+//        MyService myService = beanFactory.getBean("myService",MyService.class);
         myService.saveAccount();
     }
 }
