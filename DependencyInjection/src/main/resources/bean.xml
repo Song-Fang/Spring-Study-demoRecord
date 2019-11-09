@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <bean id="serviceAccount" class="com.service.ServiceAccountImpl">
+        <constructor-arg name="name" value="Francis"></constructor-arg>
+        <constructor-arg name="age" value="27"></constructor-arg>
+        <constructor-arg name="date" ref="now"></constructor-arg>
+    </bean>
+
+    <bean id="serviceAccount2" class="com.service.ServiceAccountImpl2">
+        <property name="name" value="Lynn"></property>
+        <property name="age" value="28"></property>
+        <property name="dateBirth" ref="now"></property>
+    </bean>
+
+    <bean id="serviceAccount3" class = "com.service.ServiceAccountImpl3">
+        <property name="arrays">
+            <array>
+                <value>A</value>
+                <value>B</value>
+                <value>C</value>
+            </array>
+        </property>
+
+        <property name="myList">
+            <list>
+                <value>D</value>
+                <value>E</value>
+                <value>F</value>
+            </list>
+        </property>
+
+        <property name="myMap">
+            <map>
+                <entry key="Francis" value="Husband"></entry>
+                <entry key="Lynn">
+                    <value>wife</value>
+                </entry>
+            </map>
+        </property>
+
+        <property name="myProperties">
+            <props>
+                <prop key="hello">hello</prop>
+                <prop key="nice">day</prop>
+            </props>
+        </property>
+
+    </bean>
+
+
+    <bean id="now" class="java.util.Date"></bean>
+
+    <bean id="daoAccount" class="com.dao.DaoAccountImpl"></bean>
+
+
+</beans>
