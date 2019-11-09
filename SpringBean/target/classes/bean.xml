@@ -10,7 +10,7 @@
 <!--    <bean id="beanFactory" class="com.factory.BeanFactory"></bean>-->
 <!--    <bean id="myService" factory-bean="beanFactory" factory-method="createInstance"></bean>-->
 <!--  Static factory  -->
-    <bean id="myService" class="com.factory.StaticFactory" factory-method="createInstance"></bean>
+    <bean id="myService" class="com.factory.StaticFactory" factory-method="createInstance" init-method="init" destroy-method="destroy"></bean>
     <bean id="myDao" class="com.Dao.MyDaoImpl"></bean>
 
 </beans>

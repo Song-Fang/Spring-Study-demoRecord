@@ -15,4 +15,12 @@ public class MyServiceImpl implements MyService{
     public void saveAccount(){
         myDao.saveData();
     }
+
+    public void init(){
+        System.out.println("Bean has been initialized.");
+    }
+
+    public void destroy(){
+        System.out.println("Bean has been destroyed.");
+    }
 }
