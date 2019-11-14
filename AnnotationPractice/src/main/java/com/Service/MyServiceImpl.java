@@ -6,8 +6,10 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Service;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 @Service("myService")
-@Scope("prototype")
 public class MyServiceImpl implements MyService{
     @Autowired
     @Qualifier(value = "myDaoImpl")
@@ -18,6 +20,16 @@ public class MyServiceImpl implements MyService{
 
     public void saveAccount(){
         myDao.saveData();
+    }
+
+    @PostConstruct
+    public void init(){
+        System.out.println("Initialization successful!");
+    }
+
+    @PreDestroy
+    public void destroy(){
+        System.out.println("Bean has been destroyed!");
     }
 
 }

@@ -13,11 +13,11 @@ public class MyView {
         ClassPathXmlApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
         //MyService myService = (MyService) ac.getBean("myService");
         MyService myService = ac.getBean("myService",MyService.class);
-        MyService myService2 = ac.getBean("myService",MyService.class);
+        //MyService myService2 = ac.getBean("myService",MyService.class);
 //        Resource resource = new ClassPathResource("bean.xml");
 //        BeanFactory beanFactory = new XmlBeanFactory(resource);
 //        MyService myService = beanFactory.getBean("myService",MyService.class);
-        System.out.println(myService==myService2);
+        System.out.println(myService);
         myService.saveAccount();
         ac.close();
 
