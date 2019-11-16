@@ -4,15 +4,17 @@ import com.mySpring.domain.Account;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
 import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+@Repository
 public class MyDaoImpl implements MyDao{
+
+    @Autowired
     QueryRunner queryRunner;
 
-    public void setQueryRunner(QueryRunner queryRunner) {
-        this.queryRunner = queryRunner;
-    }
 
     public List<Account> findAllAccount() {
         try{

@@ -2,15 +2,15 @@ package com.mySpring.service;
 
 import com.mySpring.dao.MyDao;
 import com.mySpring.domain.Account;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 
+@Service("myService")
 public class MyServiceImpl implements MyService {
+    @Autowired
     private MyDao myDao;
-
-    public void setMyDao(MyDao myDao) {
-        this.myDao = myDao;
-    }
 
     public List<Account> findAllAccount() {
         return myDao.findAllAccount();
