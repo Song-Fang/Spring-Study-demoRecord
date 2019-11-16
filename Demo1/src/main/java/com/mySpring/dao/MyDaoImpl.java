@@ -10,6 +10,10 @@ import java.util.List;
 public class MyDaoImpl implements MyDao{
     QueryRunner queryRunner;
 
+    public void setQueryRunner(QueryRunner queryRunner) {
+        this.queryRunner = queryRunner;
+    }
+
     public List<Account> findAllAccount() {
         try{
             return queryRunner.query("select * from account", new BeanListHandler<Account>(Account.class));
@@ -36,7 +40,11 @@ public class MyDaoImpl implements MyDao{
     }
 
     public void deleteAccount(int id) {
-
+        try{
+            queryRunner.update("delete from account where id=?",id);
+        }catch(Exception e){
+            throw new RuntimeException(e);
+        }
     }
 
     public void updateAccount(Account account) {
