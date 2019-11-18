@@ -2,23 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d85332-8c34-46d4-b8d3-03cb838bdd13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../proxy/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/MyProducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Producer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/dao/MyDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/dao/MyDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/dao/MyDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/dao/MyDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/service/MyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/service/MyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/service/MyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/main/java/com/mySpring/service/MyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/main/resources/bean.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/main/resources/bean.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/src/test/java/com/mySpring/test/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/src/test/java/com/mySpring/test/JunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/dao/MyDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/dao/MyDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/dao/MyDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/dao/MyDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/service/MyService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/service/MyService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/service/MyServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/target/classes/com/mySpring/service/MyServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Demo1/target/test-classes/com/mySpring/test/JunitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Demo1/target/test-classes/com/mySpring/test/JunitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/Iteacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDaoProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,43 +27,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../proxy/pom.xml">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="42">
+              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Producer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDaoProxy.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
               <folding>
-                <element signature="e#88#89#0" expanded="true" />
-                <element signature="e#123#124#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#243#244#0" expanded="true" />
+                <element signature="e#156#157#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/MyProducer.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/View.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -87,8 +63,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -98,10 +74,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/service/MyAccountService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Dao/MyAccountDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Dao/MyAccountDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/view/View.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/com/factory/BeanFactory.java" />
         <option value="$PROJECT_DIR$/src/main/resources/bean.properties" />
@@ -149,6 +121,10 @@
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/MyProducer.java" />
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Producer.java" />
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/springProxy/Client.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/Iteacher.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDao.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDaoProxy.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/View.java" />
       </list>
     </option>
   </component>
@@ -159,7 +135,7 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="441" />
     <option name="y" value="45" />
     <option name="width" value="1104" />
@@ -204,7 +180,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springProxy" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springReview01" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proxy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="staticProxy" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -257,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
+  <component name="RunManager" selected="Application.View">
     <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.springProxy.Client" />
       <module name="proxy" />
@@ -271,18 +256,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTest.deleteData" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
+    <configuration name="View" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.staticProxy.View" />
+      <module name="proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mySpring.test.*" />
+          <option name="PATTERN" value="com.staticProxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.mySpring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mySpring.test.JunitTest" />
-      <option name="METHOD_NAME" value="deleteData" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -337,11 +319,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.View" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.JunitTest.transferMoney" />
         <item itemvalue="JUnit.JunitTest.findById" />
         <item itemvalue="JUnit.JunitTest.updateRecord" />
-        <item itemvalue="JUnit.JunitTest.deleteData" />
       </list>
     </recent_temporary>
   </component>
@@ -364,7 +346,7 @@
       <workItem from="1573748385574" duration="451000" />
       <workItem from="1573882937716" duration="6000" />
       <workItem from="1573929218416" duration="11956000" />
-      <workItem from="1574007503497" duration="4900000" />
+      <workItem from="1574007503497" duration="5577000" />
     </task>
     <servers />
   </component>
@@ -401,10 +383,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51544000" />
+    <option name="totallyTimeSpent" value="52221000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29554656" />
@@ -475,43 +457,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../DependencyInjection/src/main/java/com/dao/DaoAccount.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DependencyInjection/src/main/java/com/view/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringBean/src/main/java/com/View/MyView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="26" column="19" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DependencyInjection/src/main/java/com/service/ServiceAccountImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/factory/BeanFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -850,6 +795,38 @@
             <element signature="e#208#209#0" expanded="true" />
             <element signature="e#243#244#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/Iteacher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDaoProxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
+          <folding>
+            <element signature="e#156#157#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
         </state>
       </provider>
     </entry>
