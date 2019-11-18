@@ -60,4 +60,11 @@ public class JunitTest {
         account.setMoney(8000);
         myService.updateAccount(account);
     }
+
+    @Test
+    public void transferMoney(){
+        ApplicationContext ac = new ClassPathXmlApplicationContext("bean.xml");
+        MyService myService = ac.getBean("myService", MyServiceImpl.class);
+        myService.transferMoney("bbb","ccc",100);
+    }
 }

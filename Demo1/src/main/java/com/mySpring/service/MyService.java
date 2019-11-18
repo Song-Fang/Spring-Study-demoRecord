@@ -10,6 +10,7 @@ public interface MyService {
      void saveAccount(Account account);
      void deleteAccount(int id);
      void updateAccount(Account account);
+     void transferMoney(String source,String dest,int money);
 
 
 }

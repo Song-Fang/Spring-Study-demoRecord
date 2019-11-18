@@ -12,7 +12,10 @@
 
     <artifactId>Demo1</artifactId>
 
-    <packaging>jar</packaging>
+    <packaging>pom</packaging>
+    <modules>
+        <module>../proxy</module>
+    </modules>
 
     <dependencies>
         <dependency>

@@ -56,4 +56,20 @@ public class MyDaoImpl implements MyDao{
             throw new RuntimeException(e);
         }
     }
+
+    public Account findAccountByName(String name) {
+        try{
+            List<Account> accounts = queryRunner.query("select * from account where name=?",new BeanListHandler<Account>(Account.class),name);
+            if(accounts==null||accounts.size()==0){
+                return null;
+            }
+            if(accounts.size()>1){
+                throw new RuntimeException("There are more than one accounts!");
+            }
+            return accounts.get(0);
+
+        }catch(Exception e){
+            throw new RuntimeException(e);
+        }
+    }
 }

@@ -31,4 +31,13 @@ public class MyServiceImpl implements MyService {
     public void updateAccount(Account account) {
         myDao.updateAccount(account);
     }
+
+    public void transferMoney(String source, String dest, int money) {
+        Account sourceAccount = myDao.findAccountByName(source);
+        Account destAccount = myDao.findAccountByName(dest);
+        sourceAccount.setMoney(sourceAccount.getMoney()-money);
+        destAccount.setMoney(destAccount.getMoney()+money);
+        myDao.updateAccount(sourceAccount);
+        myDao.updateAccount(destAccount);
+    }
 }

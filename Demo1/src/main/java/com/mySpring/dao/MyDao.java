@@ -10,4 +10,5 @@ public interface MyDao {
     void saveAccount(Account account);
     void deleteAccount(int id);
     void updateAccount(Account account);
+    Account findAccountByName(String name);
 }
