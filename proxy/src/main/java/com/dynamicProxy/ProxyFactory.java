@@ -1,5 +1,6 @@
 package com.dynamicProxy;
 
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
@@ -7,18 +8,20 @@ import java.lang.reflect.Proxy;
 public class ProxyFactory {
     private Object target;
 
-    public ProxyFactory(Object teacher){
-        this.target = teacher;
+    public ProxyFactory(Object target){
+        this.target = target;
     }
 
     public Object getProxyInstance(){
-        return Proxy.newProxyInstance(target.getClass().getClassLoader(),target.getClass().getInterfaces(),new InvocationHandler(){
+        return Proxy.newProxyInstance(target.getClass().getClassLoader(),target.getClass().getInterfaces(),new InvocationHandler() {
+                    public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
+                        System.out.println("Proxy Initialization...");
+                        Object outProxy = method.invoke(target, args);
+                        System.out.println("Proxy Destruction....");
+                        return outProxy;
 
-            public Object invoke(Object proxy, Method method, Object[] args) throws Throwable {
-                System.out.println("Proxy initialization...");
-                Object result = method.invoke(target,args);
-                return result;
-            }
-        });
+                    }
+                }
+        );
     }
 }
