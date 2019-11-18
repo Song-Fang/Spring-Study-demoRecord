@@ -1,6 +1,6 @@
 package com.staticProxy;
 
-public class TeacherDaoProxy implements Iteacher {
+public class TeacherDaoProxy implements Iteacher{
     private Iteacher teacherDao;
 
     public TeacherDaoProxy(Iteacher iteacher){
