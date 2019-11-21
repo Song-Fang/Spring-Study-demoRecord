@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2d85332-8c34-46d4-b8d3-03cb838bdd13" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass2.java" afterDir="false" />
-    </list>
+    <list default="true" id="d2d85332-8c34-46d4-b8d3-03cb838bdd13" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/../SpringBean/target/" />
@@ -408,7 +406,7 @@
       <workItem from="1574007503497" duration="6252000" />
       <workItem from="1574102108095" duration="9082000" />
       <workItem from="1574282967705" duration="3052000" />
-      <workItem from="1574296018877" duration="3465000" />
+      <workItem from="1574296018877" duration="4064000" />
     </task>
     <servers />
   </component>
@@ -445,7 +443,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="68495000" />
+    <option name="totallyTimeSpent" value="69094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
