@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2d85332-8c34-46d4-b8d3-03cb838bdd13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Dest5V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Phone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Source220V.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/VoltageAdaptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Out5V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Source220V.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/VoltageAdaptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proxy/src/main/java/com/dynamicProxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/src/main/java/com/dynamicProxy/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proxy/target/classes/com/dynamicProxy/ProxyFactory$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/target/classes/com/dynamicProxy/ProxyFactory$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../proxy/target/classes/com/dynamicProxy/ProxyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../proxy/target/classes/com/dynamicProxy/ProxyFactory.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,19 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Dest5V.java">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Out5V.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/VoltageAdaptor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+            <state relative-caret-position="63">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -52,16 +42,7 @@
         <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Phone.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -71,6 +52,78 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
               <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/VoltageAdaptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Source220V.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <folding>
+                <element signature="e#86#87#0" expanded="true" />
+                <element signature="e#112#113#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Phone.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+              <folding>
+                <element signature="e#226#227#0" expanded="true" />
+                <element signature="e#269#270#0" expanded="true" />
+                <element signature="e#367#368#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -92,12 +145,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/../SpringBean/target/classes/bean.xml" />
-        <option value="$PROJECT_DIR$/../SpringBean/src/main/resources/bean.xml" />
-        <option value="$PROJECT_DIR$/../SpringBean/src/main/java/com/Service/MyServiceImpl.java" />
-        <option value="$PROJECT_DIR$/../SpringBean/src/main/java/com/View/MyView.java" />
-        <option value="$PROJECT_DIR$/../DependencyInjection/pom.xml" />
-        <option value="$PROJECT_DIR$/../DependencyInjection/src/main/java/com/dao/DaoAccount.java" />
         <option value="$PROJECT_DIR$/../DependencyInjection/src/main/java/com/dao/DaoAccountImpl.java" />
         <option value="$PROJECT_DIR$/../DependencyInjection/src/main/java/com/service/ServiceAccount.java" />
         <option value="$PROJECT_DIR$/../DependencyInjection/src/main/java/com/service/ServiceAccountImpl.java" />
@@ -143,6 +190,12 @@
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Dest5V.java" />
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Phone.java" />
         <option value="$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Client.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Out5V.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Source220V.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/VoltageAdaptor.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Phone.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Client.java" />
+        <option value="$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass.java" />
       </list>
     </option>
   </component>
@@ -154,8 +207,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="763" />
-    <option name="y" value="484" />
+    <option name="x" value="762" />
+    <option name="y" value="483" />
     <option name="width" value="1104" />
     <option name="height" value="960" />
   </component>
@@ -167,6 +220,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,13 +261,12 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="Adaptor" type="462c0819:PsiDirectoryNode" />
+              <item name="innerClass" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -260,7 +313,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client (2)">
+  <component name="RunManager" selected="Application.InnerClass">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.dynamicProxy.Client" />
       <module name="proxy" />
@@ -287,12 +340,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.springProxy.Client" />
+    <configuration name="Client (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.instanceAdaptor.Client" />
       <module name="proxy" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.springProxy.*" />
+          <option name="PATTERN" value="com.instanceAdaptor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InnerClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.innerClass.InnerClass" />
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.innerClass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -313,29 +379,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JunitTest.transferMoney" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Demo1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mySpring.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mySpring.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mySpring.test.JunitTest" />
-      <option name="METHOD_NAME" value="transferMoney" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InnerClass" />
+        <item itemvalue="Application.Client (3)" />
         <item itemvalue="Application.Client (2)" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.View" />
-        <item itemvalue="Application.Client" />
-        <item itemvalue="JUnit.JunitTest.transferMoney" />
       </list>
     </recent_temporary>
   </component>
@@ -360,6 +410,8 @@
       <workItem from="1573929218416" duration="11956000" />
       <workItem from="1574007503497" duration="6252000" />
       <workItem from="1574102108095" duration="9082000" />
+      <workItem from="1574282967705" duration="3052000" />
+      <workItem from="1574296018877" duration="2741000" />
     </task>
     <servers />
   </component>
@@ -396,12 +448,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61978000" />
+    <option name="totallyTimeSpent" value="67771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30040485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31093118" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -410,7 +463,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.1537037" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.16481481" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.21481481" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,39 +522,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/Dao/MyAccountDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringBean/src/main/java/com/Dao/MyDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringBean/src/main/java/com/Dao/MyDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../SpringBean/src/main/java/com/Service/MyService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../AnnotationPractice/src/main/java/com/service/MyAccountService.java" />
-    <entry file="file://$PROJECT_DIR$/../AnnotationPractice/src/main/java/com/service/MyAccountServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../AnnotationPractice/src/main/java/com/Dao/MyAccountDao.java" />
-    <entry file="file://$PROJECT_DIR$/../AnnotationPractice/src/main/java/com/Dao/MyAccountDaoImpl.java" />
-    <entry file="file://$PROJECT_DIR$/../AnnotationPractice/src/main/java/com/view/View.java" />
     <entry file="file://$PROJECT_DIR$/../SpringBean/src/main/java/com/Service/MyServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -722,13 +742,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/JDKProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/JDKProxy.java" />
     <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/staticProxy/TeacherDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -800,6 +814,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor.java" />
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Dest5V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/VoltageAdaptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Out5V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Source220V.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -807,31 +850,68 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Dest5V.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" lean-forward="true" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Phone.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/Client.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/Adaptor/VoltageAdaptor.java">
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/VoltageAdaptor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        <state relative-caret-position="105">
+          <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Source220V.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+          <folding>
+            <element signature="e#86#87#0" expanded="true" />
+            <element signature="e#112#113#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Phone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="81" selection-start-line="7" selection-start-column="81" selection-end-line="7" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/instanceAdaptor/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="34" column="1" selection-start-line="34" selection-start-column="1" selection-end-line="34" selection-end-column="1" />
+          <folding>
+            <element signature="e#226#227#0" expanded="true" />
+            <element signature="e#269#270#0" expanded="true" />
+            <element signature="e#367#368#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../proxy/src/main/java/com/innerClass/InnerClass2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>
